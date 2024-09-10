@@ -1,0 +1,20 @@
+.ellipsis{
+    width: 200px;
+    white-space: nowrap;
+    border: 3px solid lavender;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 3px solid lavender;
+    overflow: auto;
+
+}
+#box-1{
+    overflow: scroll;
+    overflow-x: hidden;
+}
